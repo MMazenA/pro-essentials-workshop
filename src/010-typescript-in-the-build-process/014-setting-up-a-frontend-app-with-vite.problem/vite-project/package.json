@@ -1,5 +1,5 @@
 {
-  "name": "013-setting-up-a-frontend-app-with-vite.solution",
+  "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.4.5"
-  },
-  "dependencies": {
-    "vite-tsconfig-paths": "^5.1.4"
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
   }
 }
