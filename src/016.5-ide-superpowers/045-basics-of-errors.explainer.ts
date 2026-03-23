@@ -27,6 +27,6 @@ const user: MyUser = {
 
 type FunctionThatReturnsAString = () => string;
 
-const fn: FunctionThatReturnsAString = () => {
+const fn = () : string => {
   return 123;
 };

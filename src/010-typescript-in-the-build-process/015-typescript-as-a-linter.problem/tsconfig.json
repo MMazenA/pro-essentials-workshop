@@ -14,13 +14,7 @@
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "baseUrl": ".",
-    "paths": {
-      "@src/*": ["./src/*"],
-      "@public/*": ["./public/*"]
-    },    
     "noEmit": true,
-    "outDir": "./dist",
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,

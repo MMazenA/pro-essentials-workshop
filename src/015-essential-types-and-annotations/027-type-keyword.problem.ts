@@ -1,21 +1,21 @@
-import { Expect, Equal } from "@total-typescript/helpers";
 import { expect, it } from "vitest";
+import { Expect, Equal } from "@total-typescript/helpers";
 
-const getRectangleArea = (rectangle: { width: number; height: number }) => {
+
+type Rectangle = { width: number; height: number };
+
+const getRectangleArea = (rectangle: Rectangle) => {
   return rectangle.width * rectangle.height;
 };
 
-const getRectanglePerimeter = (rectangle: {
-  width: number;
-  height: number;
-}) => {
+const getRectanglePerimeter = (rectangle: Rectangle) => {
   return 2 * (rectangle.width + rectangle.height);
 };
 
 it("should return the area of a rectangle", () => {
   const result = getRectangleArea({
     width: 10,
-    height: 20,
+    height: 20, 
   });
 
   type test = Expect<Equal<typeof result, number>>;

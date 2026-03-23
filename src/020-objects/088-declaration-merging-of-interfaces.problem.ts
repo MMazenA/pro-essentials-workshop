@@ -1,10 +1,6 @@
-interface Logger {
-  log(message: string, level: number): void;
-}
-
-interface Logger {
+type Logger = {
   log(message: string): void;
-}
+};
 
 const myLogger: Logger = {
   log: (message: string) => {

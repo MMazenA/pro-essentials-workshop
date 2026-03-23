@@ -20,6 +20,9 @@ dependencies:
   '@types/react-dom':
     specifier: ^18.2.4
     version: 18.3.0
+  diff:
+    specifier: ^5.2.2
+    version: 5.2.2
   express:
     specifier: ^4.18.1
     version: 4.19.2
@@ -49,6 +52,9 @@ devDependencies:
   '@total-typescript/helpers':
     specifier: ^0.0.1
     version: 0.0.1
+  '@types/diff':
+    specifier: ^5.2.3
+    version: 5.2.3
   cross-fetch:
     specifier: ^3.1.5
     version: 3.1.8
@@ -736,6 +742,10 @@ packages:
       '@types/node': 20.14.10
     dev: false
 
+  /@types/diff@5.2.3:
+    resolution: {integrity: sha512-K0Oqlrq3kQMaO2RhfrNQX5trmt+XLyom88zS0u84nnIcLvFnRUMRRHmrGny5GSM+kNO9IZLARsdQHDzkhAgmrQ==}
+    dev: true
+
   /@types/estree@1.0.5:
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
     dev: true
@@ -1277,6 +1287,11 @@ packages:
   /destroy@1.2.0:
     resolution: {integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
+    dev: false
+
+  /diff@5.2.2:
+    resolution: {integrity: sha512-vtcDfH3TOjP8UekytvnHH1o1P4FcUdt4eQ1Y+Abap1tk/OB2MWQvcwS2ClCd1zuIhc3JKOx6p3kod8Vfys3E+A==}
+    engines: {node: '>=0.3.1'}
     dev: false
 
   /dom-helpers@5.2.1:

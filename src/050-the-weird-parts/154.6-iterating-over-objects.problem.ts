@@ -5,7 +5,9 @@ interface User {
   name: string;
 }
 
-function printUser(user: User) {}
+function printUser(user: User) {
+  Object.values(user).forEach((value) => console.log(value));
+}
 
 it("Should log all the keys of the user", () => {
   const consoleSpy = vitest.spyOn(console, "log");

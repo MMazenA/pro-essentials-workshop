@@ -1,8 +1,17 @@
 import { expect, it } from "vitest";
 
+// function validateUsername(username: string | null): boolean {
+//   // Rewrite this function to make the error go away
+//   return (username?.length ?? 0) > 5;
+
+//   return false;
+// }
+
 function validateUsername(username: string | null): boolean {
   // Rewrite this function to make the error go away
-  return username.length > 5;
+  if(typeof username === "string"){
+    return username.length > 5;
+  }
 
   return false;
 }

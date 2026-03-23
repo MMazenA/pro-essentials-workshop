@@ -9,4 +9,5 @@
     "skipLibCheck": true,
     "isolatedModules": true
   },
+  "exclude": ["src/server.ts", "src/client.ts"]
 }

@@ -1,5 +1,6 @@
+type  ty =  "small" | "medium" | "large" | (string & {});
 const getResolvedIconSize = (
-  iconSize: "small" | "medium" | "large" | string,
+  iconSize: ty
 ) => {
   switch (iconSize) {
     case "small":
@@ -14,4 +15,4 @@ const getResolvedIconSize = (
 };
 
 // It doesn't give you autocomplete for 'small', 'medium', or 'large'!
-getResolvedIconSize("awdawd");
+getResolvedIconSize("test");

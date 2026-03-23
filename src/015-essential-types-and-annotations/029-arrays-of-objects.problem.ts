@@ -1,5 +1,8 @@
+type Ingredient = { name: string; quantity: string };
+
 type Recipe = {
   title: string;
+  ingredients: Ingredient[]
   instructions: string;
 };
 

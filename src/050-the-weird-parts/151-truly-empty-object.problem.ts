@@ -1,4 +1,6 @@
-const acceptOnlyEmptyObject = (input: {}) => {};
+type EmptyObject = Record<PropertyKey, never>;
+
+const acceptOnlyEmptyObject = (input: EmptyObject) => {};
 
 acceptOnlyEmptyObject({});
 
